@@ -4,9 +4,16 @@
     padding: 15px;
 }
 
+.fondo{
+    background-image: url(./Img/mujer.png);
+    background-repeat:no-repeat;
+    background-position:left;    
+}
+
+
 .parrafo{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     padding: 5px;
     margin-bottom: 0px;
 }
@@ -20,7 +27,7 @@
 .TituloProductos{
     /*background-color: #ece3f5;*/
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     padding: 5px;
     padding-top: 50px;
 
@@ -46,5 +53,142 @@
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
+    width: 50%;
+}
+
+
+.section-title-divider {
+    width: 50%;
+    height: 5px;
+    background: #741ec4;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
   }
 
+.redes{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.section-title{
+    padding-top: 30px;
+}
+
+
+  /* Services Section
+--------------------------------*/
+#productos {
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+  
+  #productos .service-item {
+    margin-bottom: 20px;
+  }
+  
+  #productos .service-icon {
+    float: left;
+    background: #55a600;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #55a600;
+  }
+  
+  #productos .service-icon i {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  
+  
+  #productos .service-title {
+    margin-left: 80px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  #productos .service-title a {
+    color: #111;
+  }
+  
+  #productos .service-description {
+    margin-left: 80px;
+    line-height: 24px;
+  }
+  
+  .video-responsive video {
+      max-width: 100%;
+      height: auto;
+  }
+
+
+  /* Contact Section
+--------------------------------*/
+#contact {
+    background: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #contact .form #sendmessage {
+    color: #55a600;
+    border: 1px solid #55a600;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+    display: block;
+  }
+  
+  #contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #contact .form input, #contact .form textarea {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .form-group{
+    padding: 5px;
+  }
+  
+
+
+  .imagen-productos{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+  .seccion-productos{
+    padding: 50px;
+    width:100%;
+    height:90vh; 
+    text-align: center;   
+  }
+  
+
+  
